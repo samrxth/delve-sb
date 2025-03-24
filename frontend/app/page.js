@@ -42,7 +42,7 @@ export default function Home() {
   const [showChat, setShowChat] = useState(false);
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState('');
-  const [apiUrl, setApiUrl] = useState('https://delve-sb.onrender.com/');
+  const [apiUrl, setApiUrl] = useState('https://delve-sb.onrender.com');
   const [geminiKey, setGeminiKey] = useState('');
   const [showResults, setShowResults] = useState(true);
   const [showTokenSection, setShowTokenSection] = useState(true);
