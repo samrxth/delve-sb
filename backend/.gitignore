@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Build artifacts
+.next/
+out/
+dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Supabase related (if applicable)
+supabase/.temp/
+supabase/migrations/
+supabase/.env
+
+# Temporary files
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Evidence folder (if it contains sensitive data)
+evidence/
+
+# Generated lock files
+package-lock.json
+yarn.lock
